@@ -1,0 +1,123 @@
+package secondproject;
+
+ 
+
+public class Hello 
+
+{
+
+ 
+
+	public static void main(String[] args) {
+
+		// TODO Auto-generated method stub
+
+	
+
+		boolean    aa=true; boolean bb=false; boolean cc=true;
+
+		boolean dd=false;
+
+		System.out.println(aa&&bb);
+
+		System.out.println(aa||bb);
+
+		System.out.println(aa&&cc);
+
+		System.out.println(!aa);                 
+
+	 
+
+	}
+
+ 
+
+}
+
+package secondproject;
+
+ 
+
+public class Hello 
+
+{
+
+ 
+
+	public static void main(String[] args) {
+
+		// TODO Auto-generated method stub
+
+	
+
+	    int aa=50;
+
+	  
+
+	        
+
+	      aa+=10;
+
+		
+
+		System.out.println(aa);
+
+		 
+
+		   aa-=10;
+
+		System.out.println(aa);  
+
+		
+
+		   aa*=10;
+
+		  System.out.println(aa);
+
+		               
+
+	 
+
+	}
+
+ 
+
+}
+
+package secondproject;
+
+ 
+
+public class Hello 
+
+{
+
+ 
+
+	public static void main(String[] args) {
+
+		// TODO Auto-generated method stub
+
+	
+
+	    int aa=50; int bb;
+
+	    bb=(aa<100)?500:600;
+
+	    System.out.println(bb);
+
+	  
+
+	        
+
+	      
+
+		               
+
+	 
+
+	}
+
+ 
+
+}

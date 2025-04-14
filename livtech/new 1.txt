@@ -1,0 +1,60 @@
+*************DAY 1 
+
+Java Introduction
+
+how java is differenet from other progamming languages like c python , c++
+
+c languages cami in around 1970 called as procedural or structure languages , sequence languages . because it starts execution from line no 1 and step by step
+
+softawre - it is a collection of programes 
+programes - a collection of lines of code 
+code - set of instructions
+
+drawbacks of c 
+
+unneccessary execution of code  executes
+no code reuseabiltiy
+no data security since ponters noclasses and no objects 
+
+
+C++ solev all problems of c lanaguagae 
+c++ is object oriented progarmming language since it follows below four concepts
+1.abstraction
+2.encapsulation
+3.inheritance
+4.polymorphism
+
+
+java came in 1995 by james gosling father of java 
+it is also oopl
+   
+c and c++ is system programming . install and os , antivirus softawre
+java and .net is internet problems/web progamming but .net is platform dependent means we can executes on one windows os ssytem only that is .net framework
+but now with .net core and higer version it is cross -platform 
+java is platform independent 
+
+************************Day 2******************
+
+meaning of java fullstack
+
+how project takes place
+FRONTEND  
+user interface logic
+........html,css,javascipt, angular,react etc
+BACKEND  
+business logic
+............java,python,.net 
+
+
+core java 
+adavnec javajdbc servelets jsp
+framework hibernate  spring springboot microservices 
+
+Database logic
+sql
+MYSql,postgresssql server ,mongo db ..etc
+
+
+
+
+
