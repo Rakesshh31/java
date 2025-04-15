@@ -1,0 +1,329 @@
+OOPS CONCEPT :-
+
+1. ABSTRACTION 2. ENCAPSULATION 3. Inheritance 4. polymorphism 
+
+
+1. ENCAPSULATION TOPIC KA PART HAI Y SB 
+
+
+suppose if we have a precious item like a diamomd to protect them we put them inside  a locker and lock it with a key . similalrly 
+in java , to protect the data , we put the data inside a class and craete an object to the class . so how we can a diamond from a locker by using key similalry 
+by using object we can access the data from the class .
+
+encapsulation is a concept in which we combine a data and code into one single unit (class).
+the main advantage of encapsultaion is data security.
+
+HERE DATA IS VARIABLES VALUE , CODE IS METHOD AND LOCKER IS CLASS  AND KEY IS OBJECT 
+
+
+CLASS :- class is a collection of data and code 
+
+Method :- method is a set of instructions defined insiade a class and performds  some operations on data 
+
+Objectc;- it is an instance of class. once object is created a memory is allocated to the data 
+for every objetc seprate memory allocation will be done 
+
+
+type of methods 
+
+1. a method void no return value 
+2. a method return value 
+
+a method which returns value we need to store in a variable and then call 
+
+
+package secondproject;
+
+ 
+
+class One
+
+{
+
+	int aa=60; int bb=70;
+
+	public void show()
+
+	{
+
+		aa++;
+
+		System.out.println(aa);
+
+	}
+
+	public  int display()
+
+	{
+
+		 bb--;
+
+		 return bb;
+
+		
+
+	}
+
+ 
+
+	
+
+	}
+
+ 
+
+ 
+
+public class Hello 
+
+{
+
+ 
+
+	public static void main(String[] args) {
+
+		// TODO Auto-generated method stub
+
+		
+
+		One obj=new One();
+
+		   obj.show();
+
+	int	 cc = obj.display();        ////  a method which returns value we need to store in a variable and then call 
+
+
+System.out.println(cc);
+
+					  		
+
+		 }     
+
+	 
+
+	
+
+ 
+
+}
+
+
+
+type of variables 
+1.local 
+2.instance 
+
+
+
+
+encapsultion is for data security
+
+
+CALL BY VALUE 
+
+
+
+package secondproject;
+
+ 
+
+class One
+
+{
+
+	int aa;double cc;char dd;boolean ee;
+
+	public void show( int  bb1,double cc1,char dd1, boolean  ee1)
+
+	{
+
+		aa=bb1;
+
+		cc=cc1;
+
+		dd=dd1;
+
+		ee=ee1;
+
+		System.out.println(aa+""+cc+""+dd+""+ee);
+
+	}
+
+	}
+
+ 
+
+ 
+
+public class Hello 
+
+{
+
+ 
+
+	public static void main(String[] args) {
+
+		// TODO Auto-generated method stub
+
+			One obj=new One();
+
+			  obj.show(60,67.7,'m',true);
+
+		
+
+	
+
+		 }     
+
+	 
+
+	
+
+ 
+
+}
+
+----------------------------------------------------------------------------
+
+THIS KEYWORD
+
+
+syntax : this.variablename;
+
+this keyword refers to current object (class variables values). Suppose in a class if the locla varibale name and the class varinles name are same ,
+then to differntiate between local variable and a class varibales we use this keyword.
+
+if we use this keyword , then jvm will point to class variable of an object.
+syntax : this.variablename;
+
+
+eg :- 
+
+package secondproject;
+
+ 
+
+class One
+
+{
+
+	int aa;
+
+	public void show( int  aa)
+
+	{
+
+		this.aa=aa;
+
+	
+
+		System.out.println(aa);
+
+	}
+
+	}
+
+ 
+
+ 
+
+public class Hello 
+
+{
+
+ 
+
+	public static void main(String[] args) {
+
+		// TODO Auto-generated method stub
+
+			One obj=new One();
+
+			  obj.show(60);
+
+		
+
+	
+
+		 }     
+
+	 
+
+	
+
+ 
+
+}
+
+--------------------------------------------------
+
+this keyword for multiple variable k liye code lik  homework 
+ 
+_______________________________________________________________________________________________________________________________________________________________
+
+2. *********************ABSTRACTION************************* 
+
+
+hiding the body of method is abstraction  ans showing essentials features like a method declartion or signatue
+
+method body is provide for code security 
+
+
+Real time example :- suppose if we want to drive a car , as a car driver i need to know the basic functinality of a car like staring the engine , applying accelaetrtior ,
+breaks ,stiring etc it is enough for me to drive a car but the background thing of a car like petrol consumption etc are not required for a car driver
+and they are hidden , similarly in java for methods you will show the method signature and we will hide method body .
+
+
+public void methodname () - method signatue/ method declartion
+{
+-------------------method body /method definition
+}
+
+
+abstractionis is a concept in which we represnt (show) the essential feature (method signatue) hiding the background details (method body)
+the main advanyage of abstractionis code security.
+
+
+In order to implement abstarction oops concept , their are two ways by using 
+1.abstarct keyword( non access modifier)
+2. using interfaces 
+
+
+homework
+
+1.write a java programe for call by value for 
+
+    datatypes int,float,char,string,boolean 
+
+ 2.write a java programe for this keyword for two variables
+
+ 3.write a java programe to calculate GST value for the purchases 
+
+   amount using encapsulation
+
+     
+
+        o/p:
+
+    purchases :  10000
+
+   cst@9%     :    900
+
+   sst@9%     :    900
+
+  GST@18%     :  1800
+
+ 
+
+    total bill  :11800
+	
+	
+TEST 
+
+1.write a java program using ternary operator
+
+2.write a java program using do while
+
+3.write a java program using for each 
+
+4.write a java program for 2 d static array
